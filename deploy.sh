@@ -1,3 +1,5 @@
 #!/bin/bash
 
-# Placeholder for config deployment script
+home_dir='$( getent passwd "$USER" | cut -d: -f6 )'
+echo $home_dir
+
